@@ -672,7 +672,7 @@ Menu.prototype = {
 		this.sfx.addMarker('jump', 1.602, 0.35, 1, false);
 		this.sfx.addMarker('wind', 455.128, 23.17, 1, true);
 
-		// this.sfx.play('double');
+		this.sfx.play('double');
 		this.game.time.events.add(117330, function(){ this.sfx.play('wind'); }, this);
 	},
 	update: function() {
