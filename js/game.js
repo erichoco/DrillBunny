@@ -136,6 +136,8 @@ var boostCounter = 0;
 Bunny.prototype.update = function() {
 	if (this.dead) return;
 
+    if (!gs.isConnected()) return;
+
     var mid = gs.getBipolarMidpoint();
 
 	if (!this.slowed && this.boost < MAX_BOOST) this.boost += BOOST_REGEN;
@@ -682,7 +684,6 @@ Menu.prototype = {
         } else {
             this.gsConnect.visible = false;
         }
-
 
 		// update clouds
 		this.clouds.x -= 0.5;
