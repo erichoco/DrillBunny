@@ -1,4 +1,6 @@
-Play **Drill Bunny** with [GaussSense Desktop][1] and [Mini GaussSense][2]!
+#### Play **Drill Bunny** with [GaussSense Desktop][1] and [Mini GaussSense][2]!
+
+![Alt text](https://gausstoys.s3-ap-northeast-1.amazonaws.com/uploads/project_attachment/attachment/22/bunny.png)
 
 [GaussSense Desktop 使用教學][3]
 
